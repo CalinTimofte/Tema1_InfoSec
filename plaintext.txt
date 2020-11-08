@@ -1,0 +1,7 @@
+Acesta este un fisier de test
+text1
+Continutul acestui fisier este folosit pentru testare
+the quick brown fox jumps over
+lorem ipsum dolaret
+ceva text pentru testare
+teste test test 123
