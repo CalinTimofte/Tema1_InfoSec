@@ -1,5 +1,6 @@
 import pyaes, os
 
+# Secrets known to both node A and B
 Kprime = b'\x8a\xccF\xbb\xab\x80DK\x97\x7f\xbeB\xec\x9acH'
 iv = b'\x06\x83\xaf\xf8\xd4:\x04G\xa7\x82h0\xdea\xae\xbc'
 
@@ -18,6 +19,7 @@ def pad(plaintext, block_size=16):
 
 def unpad(plaintext, block_size=16):
     last_char = plaintext[-1]
+    # If the last char isn't a pad character it means the text wasn't padded
     if ord(last_char) > block_size - 1:
         return plaintext
     return_text = plaintext[:-(ord(last_char))]
