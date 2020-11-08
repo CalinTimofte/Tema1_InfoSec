@@ -2,10 +2,10 @@
 Tema 1 pentru materia securitatea informatiei
 
 Pentru rulare:
-<li>
-  <ol> Rulati scriptul key_manager.py</ol>
-  <ol> Rulati scriptul clientA.py</ol>
-  <ol> Rulati scriptul clientB.py</ol>
-  <ol> In consola clientului B introduceti cbc sau ofb</ol>
-  <ol> Cititi rezultatul din consola clientului A</ol>
-</li>
+<ol>
+  <li> Rulati scriptul key_manager.py</li>
+  <li> Rulati scriptul clientA.py</li>
+  <li> Rulati scriptul clientB.py</li>
+  <li> In consola clientului B introduceti cbc sau ofb</li>
+  <li> Cititi rezultatul din consola clientului A</li>
+</ol>
